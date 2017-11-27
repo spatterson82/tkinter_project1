@@ -63,7 +63,8 @@ class IdwApp(Frame):
         env.extent = "MINOF"
         CheckOutExtension("Spatial")
 
-        self.output_location = r"C:\Univ of Wisc\GEOG_777\Project_1\tkinter_output"
+        self.output_location = os.path.join(os.getcwd(), 'tkinter_output')
+        print self.output_location
         if not os.path.isdir(self.output_location):
             os.mkdir(self.output_location)
 
@@ -173,9 +174,9 @@ class IdwApp(Frame):
         """
 
         if new is False:
-            orig_image = Image.open(r"C:/tkinter_output/sample_output.jpg")
+            orig_image = Image.open(os.path.join(os.getcwd(), "sample_output.jpg"))
         else:
-            orig_image = Image.open(r"C:\tkinter_output\idwout.jpg")
+            orig_image = Image.open(os.path.join(os.getcwd(), "idwout.jpg"))
         resize_image = orig_image.resize((1000, 600), Image.ANTIALIAS)
 
         idw_image_jov = ImageTk.PhotoImage(resize_image)

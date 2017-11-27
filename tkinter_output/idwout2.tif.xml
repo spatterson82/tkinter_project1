@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20171008</CreaDate><CreaTime>13494800</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\Idw" Date="20171008" Time="134948">Idw "C:\Univ of Wisc\GEOG_777\files\well_nitrate\well_nitrate.shp" nitr_ran C:/tkinter_output\Idw_well_nitrat1.tif 0.01761631928 20 "VARIABLE 12" #</Process></lineage></DataProperties></Esri></metadata>
